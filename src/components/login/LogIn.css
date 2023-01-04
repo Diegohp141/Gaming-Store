@@ -1,0 +1,36 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin-bottom: 0.5rem;
+}
+
+.pInput {
+  color: black;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  align-self: flex-end;
+}
+
+.ingresar {
+  padding: 5px;
+  width: 70%;
+  background: none;
+  border: 1px solid limegreen;
+  color: limegreen;
+  border-radius: 3px;
+}
+
+.crearCuenta {
+  padding: 5px;
+  width: 70%;
+  background: none;
+  border: 1px solid rgb(226, 59, 59);
+  color: rgb(226, 59, 59);
+  border-radius: 3px;
+}

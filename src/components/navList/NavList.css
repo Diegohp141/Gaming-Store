@@ -1,0 +1,13 @@
+ul li {
+  list-style-type: none;
+}
+
+.dropdown-heading {
+  padding: 7px;
+  font-size: 1.3rem;
+}
+.dropdown-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

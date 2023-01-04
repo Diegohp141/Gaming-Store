@@ -1,0 +1,24 @@
+.searchBarC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+
+.input {
+  font-size: 1.3rem;
+  border-radius: 20px;
+  padding: 5px;
+  width: 90%;
+}
+
+.sBtn {
+  font-size: 1.3rem;
+  background: none;
+  color: #dfc372;
+  border: 1px solid #dfc372;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}

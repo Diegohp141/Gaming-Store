@@ -1,0 +1,89 @@
+/* ========================================================
+                          tags
+  =========================================================  */
+
+/* ========================================================
+                          Class
+  =========================================================  */
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.btn {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: snow;
+  font-family: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+}
+
+.dropdown.active > .link,
+.link:hover {
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  width: 7vw;
+  text-align: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.25rem);
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown:hover > .btn + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.information-grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 2rem;
+}
+
+.login {
+  background: none;
+  color: snow;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 10vw;
+}
+
+.cForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  font-size: 1.5rem;
+}
